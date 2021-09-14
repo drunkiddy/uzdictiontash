@@ -2,18 +2,18 @@ import telebot
 from telebot.types import Message
 from telebot import types
 
-TOKEN = '839076133:AAFdjIQ1Bn9KvPoZ6smhrh7uoICEeqJc3f4'
+TOKEN = '1954846473:AAHjHmwKEficpy3Mxc8Vgk_ZCEb6kv_HIPk'
 bot = telebot.TeleBot(TOKEN)
 
 markup_menu = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_menu.row('Alphabets Алфавиты Abeceler')
 
 hesbisey = '''🇬🇧 Nothing found, write other word. You can ask author to add this word, you can also write me your suggestions and comments if you notice a mistake @sibirli
-Our chat: @tolmacchat
+Our chat: @drunkiddy
 🇷🇺 Ничего не найдено, введите другое слово. Еще Вы можете попросить автора добавить это слово, также можете написать мне свои предложения и замечания если заметили ошибку @sibirli
-Наш чат: @tolmacchat
+Наш чат: @drunkiddy
 🇹🇷 Hiçbirşey bulunamadı, başka bir kelime yazın. Bot yaratıcısından bu kelime eklemesini isteyebilirsiniz, ayrıca teklif ve hata hakkında bana yazabilirsiniz @sibirli
-Sohbet: @tolmacchat'''
+Sohbet: @drunkiddy'''
 
 #send_message
 @bot.message_handler(commands=['start'])
